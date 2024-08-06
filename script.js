@@ -92,7 +92,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "No final da tosa:"; // Texto final ajustado
+    caixaPerguntas.textContent = "No fut:"; // Texto final ajustado
     textoResultado.textContent = historiaFinal.trim(); // Mostrar a história final completa
     caixaAlternativas.textContent = ""; // Limpar alternativas
 }
