@@ -6,28 +6,28 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Hoje é dia de levar seu pet ao petshop, você prefere ir de manhã ou a tarde?",
+        enunciado: "Hoje é dia de jogar um fut, quer jogar de manhã ou de tarde?",
         alternativas: [
             {
                 texto: "manhã!",
-                afirmacao: "levou seu pet de manhã."
+                afirmacao: "Foi jogar de manhã."
             },
             {
                 texto: "tarde!",
-                afirmacao: "levou seu pet à tarde."
+                afirmacao: "Foi jogar à tarde."
             }
         ]
     },
     {
-        enunciado: "Qual banho você prefere? banho e tosa tradicional ou apenas higiênico?",
+        enunciado: "Qual meião você prefere? Meião alto ou meião baixo?",
         alternativas: [
             {
-                texto: "tradicional",
-                afirmacao: "ele recebeu uma tosa tradicional."
+                texto: "Alto",
+                afirmacao: "Você foi de meião alto."
             },
             {
-                texto: "apenas higiênico",
-                afirmacao: "ele recebeu uma tosa higiênica."
+                texto: "Baixo",
+                afirmacao: "Você foi de meião baixo."
             }
         ]
     },
@@ -35,21 +35,21 @@ const perguntas = [
         enunciado: "Deseja algum acessório?",
         alternativas: [
             {
-                texto: "sim, obrigado!",
-                afirmacao: "recebeu lacinhos."
+                texto: "Claro!",
+                afirmacao: "Foi de manguito."
             },
             {
-                texto: "não, obrigado!",
-                afirmacao: "voltou sem nenhum acessório."
+                texto: "Não!",
+                afirmacao: "Foi sem nenhum acessório."
             }
         ]
     },
     {
-        enunciado: "Ao final do procedimento podemos tirar foto?",
+        enunciado: "Agora posso tirar uma midia?",
         alternativas: [
             {
                 texto: "simm!",
-                afirmacao: "tirou várias fotos."
+                afirmacao: "tirar várias fotos."
             },
             {
                 texto: "não",
